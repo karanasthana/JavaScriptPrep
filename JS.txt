@@ -1,0 +1,61 @@
+1. Hoisting: Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution regardless of whether their scope is global or local.
+## An undeclared variable is assigned the value undefined at execution and is also type undefined.
+## a ReferenceError is thrown when trying to access a previously undeclared variable.
+fn declarations are hoisted and fn expressions are not .. gives typeError
+
+2. JS functions: function declaration and function expression
+The Function Declaration is created when JavaScript is preparing to start the script and is visible everywhere in it.
+Function Expressions are created when the execution reaches them.
+
+
+3. Closures: a closure gives you access to an outer function’s scope from an inner function. In JavaScript, closures are created every time a function is created, at function creation time.
+
+4. HOF: A higher-order function is a function that can take another function as an argument, or that returns a function as a result.
+When you pass a function by name without parentheses, you are passing the function object itself. When you pass it with parentheses, you are passing the result of executing that function.
+
+5. Event queue: Call stack, message queue and browser api.
+while loop is a blocking statement meaning its execution happens on the call stack and does not use the browser APIs. So it blocks all succeeding statements until it finishes execution.
+
+6. Spread and rest operator:  the spread operator takes an array (or any iterable) and spreads it values.
+the spread operator takes the array of parameters and spreads them across the arguments in the function call. But what if we need our function to be able to work with an unknown number of parameters? That’s where the rest parameter comes in.
+The rest parameter gives us an easier and cleaner way of working with an indefinite number of parameters
+
+7. null is an object. undefined is of type undefined.
+null !== undefined but null == undefined.
+undefined means a variable has been declared but not defined yet.
+null is an assigned value. It means nothing.
+
+8. Typecasting or coercion: means change the data type of a value to to another data type
+implicit-> automatic conversion of data type
+explicit-> type conversion example.. parseInt(), parseFloat(),  String(), Boolean()
+
+9. this keyword
+
+10. The Object.assign() method is used to copy the values of all enumerable own properties from one or more source objects to a target object.
+
+Shallow copy in objects -> can be done by-> spread,  obj.slice(), Object.assign(obj)
+
+Shallow copy in array-> Array.from(arr)
+
+11. Virtual dom-> representation of ui where ui is kept in memory and is in sync with the real dom by library such as react dom
+
+12. Redux is used mostly for application state management. To summarize it, Redux maintains the state of an entire application in a single immutable state tree (object), which can’t be changed directly.
+
+13. Difference between arrow functions and normal functions
+both work in similar manner
+a) syntax
+b) no arguments binding in arrow functions
+c) use of this keyword -> arrow functions do not have their own this.
+d)using new keyword: regular functions are callable and constructible. but arrow functions are only callable and not constructible.
+e)no duplicate name parameters
+
+
+14. differences btw var and let
+a) hoisting-> var variables are hoisted, let will throw referenceError
+b)Global object-> var variables are created as a global object i,e are attached to window object, but let variables are not
+c)Redeclaration-> var foo = 20;
+var foo;
+its ok but will throw an error in strict mode
+but let bar = 20;
+let 20;
+is not ok. 
