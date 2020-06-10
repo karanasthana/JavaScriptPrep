@@ -59,3 +59,33 @@ its ok but will throw an error in strict mode
 but let bar = 20;
 let 20;
 is not ok. 
+
+
+15. React and Virtual Dom: React creates a virtual DOM. When state changes in a component it firstly runs a “diffing” algorithm, which identifies what has changed in the virtual DOM. The second step is reconciliation, where it updates the DOM with the results of diff.
+Whenever a ReactComponent is changing the state, diff algorithm in React runs and identifies what has changed. And then it updates the DOM with the results of diff. The point is - it’s done faster than it would be in the regular DOM.
+
+
+16. React.createClass():  allows us to generate component "classes."
+Const myComponent = react.createClass({
+  render(){
+    return(
+      <div></div>
+    )
+  }
+});
+It creates components same as the components created by using es6 classes. 
+Difference between both these methods of creating components:
+components created by es6 classes are not created by using a method from react library but we extend an es6 class (Component) that library defines.
+Example: export default class MyComponent extends React.Component({}).
+When creating component by react’s class method we pass in objects as an argument.
+
+
+17. Difference btw class and functional components:
+Functional components are stateless components, i.e they can be used to receive props and render them to page.
+Class components provides allows us to add features like local state and hooks, also enables our component to have direct access to the store and hold state.
+
+
+18. Animations slow: useNativeDriver: true.
+
+
+19. react.purecomponent?
