@@ -1,15 +1,10 @@
 import React,{Component} from 'react';
-import ReactDOM from 'react-dom';
+import ImportantLinksComponent from './ImportantLinksComponent';
 
-export default class HomePage extends React.Component {
-	constructor(props){
-		super(props)
-	}
-	render(){
-		return(
-			<div>
-				you are here in detail page
-			</div>
-		)
-	}
+export default function DetailPage(props) {
+    return (
+        <div>
+            <ImportantLinksComponent linksArr={props.importantLinks} />
+        </div>
+    )
 }
