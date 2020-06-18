@@ -27,3 +27,9 @@
     padding: 20px;
     background-color: deeppink;
 }
+
+.section-container .button-container .button:hover {
+    padding: 20px;
+    background-color: darkcyan;
+    color: white;
+}
