@@ -5,15 +5,35 @@
     height: 800px;
 }
 
+.section-container:hover {
+    opacity: 0.9;
+}
+
+.section-container h2 {
+    margin: 0;
+    color: white;
+    font-size: 8rem;
+    display: flex;
+    justify-content: center;
+    top: 3rem;
+    position: relative;
+}
+
 .section-container .button-container {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 10rem;
+    top: 20rem;
     text-decoration: none;
 }
 
 .section-container .button-container .button {
     padding: 20px;
     background-color: deeppink;
+}
+
+.section-container .button-container .button:hover {
+    padding: 20px;
+    background-color: darkcyan;
+    color: white;
 }
