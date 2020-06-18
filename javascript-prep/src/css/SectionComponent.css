@@ -5,6 +5,10 @@
     height: 800px;
 }
 
+.section-container:hover {
+    opacity: 0.9;
+}
+
 .section-container h2 {
     margin: 0;
     color: white;

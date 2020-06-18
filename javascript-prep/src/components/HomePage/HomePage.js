@@ -9,8 +9,8 @@ export default function HomePage() {
     return (
         <div>
             <SectionComponent image={JavascriptImage} text={'Javascript'} id={'javascript'} />
-            <SectionComponent image={ReactNativeImage} text={'ReactNative'} id={'react-native'} />
-            <SectionComponent image={ReactImage} text={'ReactJS'} id={'react-js'} />
+            <SectionComponent image={ReactNativeImage} text={'React Native'} id={'react-native'} />
+            <SectionComponent image={ReactImage} text={'React JS'} id={'react-js'} />
             <SectionComponent image={ReduxImage} text={'Redux'} id={'redux'} />
         </div>
     )
