@@ -8,10 +8,10 @@ import JavascriptImage from '../../assets/images/computer.jpg';
 export default function HomePage() {
     return (
         <div>
-            <SectionComponent image={JavascriptImage} text={'Learn Javascript'} id={'javascript'} />
-            <SectionComponent image={ReactNativeImage} text={'Learn ReactNative'} id={'react-native'} />
-            <SectionComponent image={ReactImage} text={'Learn ReactJS'} id={'react-js'} />
-            <SectionComponent image={ReduxImage} text={'Learn Redux'} id={'redux'} />
+            <SectionComponent image={JavascriptImage} text={'Javascript'} id={'javascript'} />
+            <SectionComponent image={ReactNativeImage} text={'ReactNative'} id={'react-native'} />
+            <SectionComponent image={ReactImage} text={'ReactJS'} id={'react-js'} />
+            <SectionComponent image={ReduxImage} text={'Redux'} id={'redux'} />
         </div>
     )
 }
