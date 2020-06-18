@@ -1,0 +1,17 @@
+.section-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.section-container .button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.section-container .button-container .button {
+    position: relative;
+    top: 10rem;
+    padding: 20px;
+    background-color: deeppink;
+}

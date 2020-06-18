@@ -1,10 +1,11 @@
 import React from 'react';
+import './../../css/SectionComponent.css';
 
 export default function SectionComponent(props) {
     return (
-        <div style={{ backgroundImage: `url(${props.image})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: '800px' }}>
-            <a style={{ display: 'flex', justifyContent: 'center' }}>
-                <div style={{ position: 'relative', top: '10rem', padding: '20px', backgroundColor: 'deeppink' }}>
+        <div className="section-container" style={{ backgroundImage: `url(${props.image})` }}>
+            <a className="button-container">
+                <div className="button">
                     {props.text}
                 </div>
             </a>
