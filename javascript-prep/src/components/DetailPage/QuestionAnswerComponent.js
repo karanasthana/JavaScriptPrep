@@ -1,5 +1,6 @@
 import React from 'react';
-import {Accordion, Card, Button} from 'react-bootstrap'
+import {Accordion, Card, Button} from 'react-bootstrap';
+import ReactHtmlParser from 'react-html-parser';
 import '../../css/detail.css';
 
 export default function QuestionAnswerComponent(props) {
@@ -10,16 +11,14 @@ export default function QuestionAnswerComponent(props) {
                 <Accordion >
                     <Card>
                         <Accordion.Toggle as={Card.Header} eventKey={index}>
-                            {element.question}
+                            { ReactHtmlParser(element.question) }
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey={index}>
-                            <Card.Body>{element.answer}</Card.Body>
+                            <Card.Body>{ ReactHtmlParser(element.answer) }</Card.Body>
                         </Accordion.Collapse>
                     </Card>
                 </Accordion>
-    
             </div>
         )
     }) : null
-    
 }
