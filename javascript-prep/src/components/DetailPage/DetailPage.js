@@ -8,7 +8,7 @@ export default function DetailPage(props) {
         <div className="detail-container" >
             <div className="qa-container">
                 <h1 className="topic">{json.topic}</h1>
-                <QuestionAnswerComponent />
+                <QuestionAnswerComponent questionsAndAnswers={json.questionsAndAnswers} />
             </div>
             <ImportantLinksComponent linksList={json.importantLinks} />
         </div>
