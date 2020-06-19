@@ -7,7 +7,7 @@ export default function DetailPage(props) {
     return (
         <div className="detail-container" >
             <div className="qa-container">
-                <h1 style={{textAlign: 'center'}}>{json.topic}</h1>
+                <h1 className="topic">{json.topic}</h1>
                 <QuestionAnswerComponent />
             </div>
             <ImportantLinksComponent linksList={json.importantLinks} />
