@@ -2,7 +2,7 @@
     "topic": "Javascript",
     "importantLinks": ["https://www.w3schools.com", "www.fb.com"],
     "questionsAndAnswers":[{
-        "question": "Q1",
+        "question": "<div>Hi</div>",
         "answer": "A1"
     }, {
         "question": "Q2",
