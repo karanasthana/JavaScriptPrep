@@ -53,5 +53,23 @@
     },{
         "question": "Difference between throttling and debouncing",
         "answer": "Throttling will delay executing a function. It will reduce the notifications of an event that fires multiple times. Debouncing will bunch a series of sequential calls to a function into a single call to that function. It ensures that one notification is made for an event that fires multiple times. Refer to Important Links for an amazing article about Differences between throttling and debouncing"
+    },{
+        "question": "This keyword",
+        "answer": "<p>The value of this is determined by how a function is called (runtime binding). A property of an execution context (global, function or eval) that, in non–strict mode, is always a reference to an object and in strict mode can be any value.</p><ul><li>Global Context- In global execution context, <em>this</em> always refer to the window object or global object whether in strict mode or not.</li><li>Function Context- Inside a function, the value of this depends on how the function is called. To set the value of this to a particular value when calling a function, use call(), or apply()</li> </ul>"
+    },{
+        "question": "Object.preventExtensions()",
+        "answer": "It is a method that simply converts an object passed as the argument into a non-extensible state. This method doesn't allow us to add new properties but the value of properties can be changed and also allow us to delete the existing properties."
+    },{
+        "question": "Currying",
+        "answer": "<p>Currying is the pattern of functions that immediately evaluate and return other functions. This is made possible by the fact that Javascript functions are expressions that can return other functions.</p> <p>Curried functions are constructed by chaining closures by defining and immediately returning their inner functions simultaneously.<code>function curry(f) { // curry(f) does the currying transform return function(a) { return function(b) { return f(a, b); }; }; }</code></p>"
+    },{
+        "question": "Nullish coalescing operator '??'",
+        "answer": "<p>The nullish coalescing operator ?? provides a short syntax for selecting a first “defined” variable from the list. <code>height = height ?? 100;</code> sets height to 100 if it is undefined</p>"
+    },{
+        "question": "Map & Set",
+        "answer": "<ul> <li>Map is a collection of keyed data items, just like an Object. But the main difference is that Map allows keys of any type. </li> <li>Methods: <code>map.get()</code> , <code>map.set()</code> </li> <li>A Set is a special type collection – “set of values” (without keys), where each value may occur only once.</li> </ul> "
+    },{
+        "question": "Object iteration",
+        "answer": "Object.keys(), Object.values(), Object.entries() "
     }]
 }
