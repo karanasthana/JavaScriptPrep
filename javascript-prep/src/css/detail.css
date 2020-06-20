@@ -1,7 +1,7 @@
 .detail-container{
     padding: 2em;
-    background-image: linear-gradient(to left bottom, #101033, #392b48, #5d4b5f, #7f6e7a, #9d9498);
     min-height: 100vh;
+    background: lightblue;
 }
 
 .detail-container .qa-container{
@@ -22,8 +22,9 @@
     border-radius: 15px;
 }
 .detail-container .accordion .card .card-header{
-    color: darkslateblue;
     font-size: 1.5em;
     font-weight: 600;
+    color: #393e46; 
+    background: lightyellow;
 }
 
