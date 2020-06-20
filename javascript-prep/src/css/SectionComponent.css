@@ -29,11 +29,13 @@
 
 .section-container .button-container .button {
     padding: 20px;
-    background-color: deeppink;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: linear-gradient(145deg,#f05a28 0,#ec008c 100%);
 }
 
 .section-container .button-container .button:hover {
     padding: 20px;
-    background-color: darkcyan;
-    color: white;
+    background: #f05a28;
 }

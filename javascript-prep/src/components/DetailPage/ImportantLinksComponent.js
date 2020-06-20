@@ -6,7 +6,7 @@ export default function ImportantLinksComponent(props) {
     let linksList = props.linksList;
     let LinksUI = _.map(linksList, function(link, index) {
         return (
-            <li><a target="_blank" href={link}>{link}</a></li>
+            <li key={index}><a target="_blank" href={link}>{link}</a></li>
         );
     })
 
