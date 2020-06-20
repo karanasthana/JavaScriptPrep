@@ -7,6 +7,7 @@ export default function DetailPage(props) {
     return (
         <div className="detail-container" >
             <div className="qa-container">
+                <img src={json.logo} alt="Topic Logo" className="logo" />
                 <h1 className="topic">{json.topic}</h1>
                 <QuestionAnswerComponent questionsAndAnswers={json.questionsAndAnswers} />
             </div>
