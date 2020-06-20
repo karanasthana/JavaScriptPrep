@@ -1,19 +1,25 @@
 .detail-container{
     padding: 2em;
+    background-image: linear-gradient(to left bottom, #101033, #392b48, #5d4b5f, #7f6e7a, #9d9498);
+}
+
+.detail-container .qa-container{
+    height: 25vh;
 }
 
 .detail-container .qa-container .topic{
     text-align: center;
+    color: white;
 }
 .detail-container .qa-container .logo{
     height: 50px;
 }
 
-.detail-container .qa-container .accordion .card{
+.detail-container .accordion .card{
     box-shadow: 0px 3px 8px #888888;
     margin-top: 1em;
 }
-.detail-container .qa-container .accordion .card .card-header{
+.detail-container .accordion .card .card-header{
     color: darkslateblue;
     font-size: 1.5em;
     font-weight: 600;
