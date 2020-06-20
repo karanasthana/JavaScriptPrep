@@ -1,6 +1,6 @@
 {
-    "topic": "Javascript",
-    "importantLinks": ["https://www.w3schools.com", "www.fb.com"],
+    "topic": "JavaScript",
+    "importantLinks": ["https://medium.com/front-end-weekly/javascript-event-loop-explained-4cd26af121d4", "https://www.telerik.com/blogs/debouncing-and-throttling-in-javascript#:~:text=Throttling%20is%20a%20technique%20in,Hello%2C%20world%20on%20the%20console."],
     "logo": "https://javascript-prep.s3.ap-south-1.amazonaws.com/JavaScript-logo.png",
     "questionsAndAnswers":[{
         "question": "<h3>Hoisting</h3>",
