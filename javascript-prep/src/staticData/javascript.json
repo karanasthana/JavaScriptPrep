@@ -17,5 +17,41 @@
     },{
         "question": "Differences between var and let",
         "answer": "<ol> <li>Scope: var variables are function scoped and let variables are block scoped.</li> <li>Hoisting: var variables are hoisted, let will throw referenceError.</li> <li>Global object: var variables are created as a global object i,e, are attached to window object, but let variables are not. (which means var are wasting memory attaching every variable to the global object.)</li> <li>Redeclaration:  <code>var foo = 20; var foo;</code> its ok but will throw an error in strict mode but <code>let bar = 20; let 20;</code> is not ok. </li> </ol>"
+    },{
+        "question": "Differences between normal function and arrow function",
+        "answer": "<ol><li>syntax</li> <li>no arguments binding in arrow functions</li> <li>use of this keyword -&gt; arrow functions do not have their own this.</li> <li>using new keyword: regular functions are callable and constructible. but arrow functions are only callable and not constructible.</li> <li>no duplicate name parameters</li> </ol>"
+    },{
+        "question": "HOF: Higher order functions",
+        "answer": "<p>A higher-order function is a function that can take another function as an argument, or that returns a function as a result. When you pass a function by name without parentheses, you are passing the function object itself. When you pass it with parentheses, you are passing the result of executing that function.</p>"
+    },{
+        "question": "Difference between null and undefined",
+        "answer": "<ul><li>null is an object whereas undefined is of type undefined.</li><li>null !== undefined but null == undefined</li><li>undefined means a variable is declared but not assigned a value whereas null is an assigned value.</li></ul>"
+    },{
+        "question": "Deep copy and Shallow copy",
+        "answer": "<p>If we make a copy <code>b = a</code> , and change some nested value in <code>b</code>, it actually changes <code>a</code>’s nested value as well, since <code>a</code> and <code>b</code> actually point to the same thing. This is known as shallow copy. Shallow copy in objects can be done by <strong>spread operators</strong>, <strong>Object.assign({}, obj)</strong> and <strong>obj.slice()</strong>; Shallow copy in arrays: <strong>spread</strong>, <strong>Array.from(arr)</strong></p> <p>When an object variable is copied – the reference is copied, the object is not duplicated. So what if we have a nested object, in that case nested properties are also copied by reference and change in nested properties will be reflected in the original array (this is called shallow copy). To solve this issue we&#39;ll use deep cloning. Deep copy: <code>JSON.parse(JSON.stringify(obj))</code></p>"
+    },{
+        "question": "Typecasting or coercion",
+        "answer": "<p>it means changing data type of a value to to another data type. 2 types</p> <ul> <li>implicit-&gt; automatic conversion of data type</li> <li>explicit-&gt; type conversion example.. parseInt(), parseFloat(),  String(), Boolean()</li> </ul>"
+    },{
+        "question": "Features of ES6",
+        "answer": "<ol><li>Constants</li><li>Block scoped variables and block scoped functions</li><li>arrow functions</li><li>Destructring</li><li>Template Literals</li><li>Extended parameter handling using Rest and Spread</li></ol>"
+    },{
+        "question": "Promises",
+        "answer": "<p>Promises lets asynchronous methods return values like synchronous methods: instead of immediately returning the final value, the asynchronous method returns a promise to supply the value at some point in the future. A Promise can be in one of the 3 states</p> <ul> <li>Pending</li> <li>Fulfilled</li> <li>Rejected</li> </ul>"
+    },{
+        "question": "Event loop",
+        "answer": "Refer to Important Links for an amazing article about event loop"
+    },{
+        "question": "Bind, call and apply",
+        "answer": "<ul> <li>The bind() method creates a new function that, when called, has its <em>this</em> keyword set to the provided value. </li> <li>Call() expects all parameters to be passed in individually, whereas apply() expects an array of all of our parameters. Difference between call and bind is:</li> <li>Executes the function it was called upon right away.</li> <li>The call() method does not make a copy of the function it is being called on.</li> </ul>"
+    },{
+        "question": "Debouncing",
+        "answer": "Debouncing is a programming practice used to ensure that time-consuming tasks do not fire so often, that it stalls the performance of the web page. In other words, it limits the rate at which a function gets invoked."
+    },{
+        "question": "Throttling",
+        "answer": "Throttling is a technique in which, no matter how many times the user fires the event, the attached function will be executed only once in a given time interval."
+    },{
+        "question": "Difference between throttling and debouncing",
+        "answer": "Throttling will delay executing a function. It will reduce the notifications of an event that fires multiple times. Debouncing will bunch a series of sequential calls to a function into a single call to that function. It ensures that one notification is made for an event that fires multiple times. Refer to Important Links for an amazing article about Differences between throttling and debouncing"
     }]
 }
