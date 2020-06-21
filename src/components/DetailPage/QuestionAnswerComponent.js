@@ -1,5 +1,5 @@
 import React from 'react';
-import {Accordion, Card, Row, Col} from 'react-bootstrap';
+import {Accordion, Card, Col} from 'react-bootstrap';
 import ReactHtmlParser from 'react-html-parser';
 import '../../css/detail.css';
 
@@ -7,7 +7,7 @@ export default function QuestionAnswerComponent(props) {
     const questionsAndAnswersArray = props.questionsAndAnswers;
     return questionsAndAnswersArray.length > 0 ? questionsAndAnswersArray.map((element, index) => {
         return (
-            <Row key={index}>
+            <div key={index}>
                 <Col md={{ span: 10, offset: 1 }}>
                     <Accordion >
                         <Card>
@@ -20,7 +20,7 @@ export default function QuestionAnswerComponent(props) {
                         </Card>
                     </Accordion>
                 </Col>
-            </Row>
+            </div>
         )
     }) : null
 }
