@@ -11,8 +11,10 @@ function App(){
   return(
     <Router>
       <Switch>
-        <Route name="HomePage" exact path="/" component={HomePage}/>
-        <Route name="Topic" path="/topic/:id" component={Topic}/>
+        <Route path={"/JavaScriptPrep/topic/:id"} name="Topic" component={Topic}/>
+        <Route path="/">
+          <HomePage />
+        </Route>
       </Switch>
     </Router>
   )
