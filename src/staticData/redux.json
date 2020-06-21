@@ -1,11 +1,21 @@
 {
+    "topic": "Redux",
     "importantLinks": [],
     "logo": "https://javascript-prep.s3.ap-south-1.amazonaws.com/redux-logo.png",
     "questionsAndAnswers":[{
-        "question": "Q1",
-        "answer": "A1"
+        "question": "Reducers",
+        "answer": "Reducers are just pure functions that take the previous state and an action, and return the next state."
     }, {
-        "question": "Q2",
-        "answer": "A2"
+        "question": "Actions",
+        "answer": "Actions are payloads of information that send data from your application to your store. They are the only source of information for the store. You send them to the store using store.dispatch()"
+    }, {
+        "question": "Connect()",
+        "answer": "The connect() function connects a React component to a Redux store. Parameters: mapStateToProps, MapDispatchToProps"
+    }, {
+        "question": "Redux Alternative",
+        "answer": "Read about Context API"
+    }, {
+        "question": "Redux Design Pattern?",
+        "answer": ""
     }]
 }
