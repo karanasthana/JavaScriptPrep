@@ -27,7 +27,7 @@
 .detail-container .accordion .card .card-header{
     font-size: 1.5em;
     font-weight: 600;
-    color: wheat; 
+    color: red; 
     background: black;
 }
 .detail-container .accordion .card .card-body{
@@ -39,6 +39,6 @@
     padding: 2em;
 }
 .detail-container .links-container a{
-    color: #393e46;
+    color: lightyellow;
 }
 
