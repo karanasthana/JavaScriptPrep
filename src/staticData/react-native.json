@@ -1,11 +1,21 @@
 {
+    "topic": "React Native",
     "importantLinks": [],
     "logo": "https://javascript-prep.s3.ap-south-1.amazonaws.com/react-logo.png",
     "questionsAndAnswers":[{
-        "question": "Q1",
-        "answer": "A1"
+        "question": "Flat list and Section List",
+        "answer": "<ul> <li>The FlatList component displays a scrolling list of changing, but similarly structured, data. FlatList works well for long lists of data, where the number of items might change over time. Takes 2 props: data and renderItem.</li> <li>If you want to render a set of data broken into logical sections, maybe with section headers, similar to UITableViews on iOS, then a SectionList is the way to go. Props: renderItem, sections, renderSectionHeader.</li> </ul> "
     }, {
-        "question": "Q2",
-        "answer": "A2"
+        "question": "Difference between flat list and scroll view",
+        "answer": "<ul> <li>ScrollView will load items (data in it for scrolling) immediately after component loading. So all data will mount into RAM and you can&#39;t use hundred or thousand items in it (because of low performance).</li> <li>FlatList has a better solution for this issue, it will mount 10 items (by default) to screen, if user scroll view so other items will mount. It&#39;s a big gain of FlatList instead of ScrollView. </li> </ul> "
+    }, {
+        "question": "ScrollView",
+        "answer": "<p>The ScrollView is a generic scrolling container that can contain multiple components and views. The scrollable items need not be homogeneous, and you can scroll both vertically and horizontally (by setting the horizontal property).</p> <ul> <li><strong>PagingEnabled</strong> prop: used to allow paging through views using swiping gestures.</li> <li>View-pager component is used to swipe right and left</li> </ul> "
+    }, {
+        "question": "PopToTop()",
+        "answer": "When we are several screens deep in a stack and want to dismiss all of them to go back to the first screen, we can use poptotop function. It will go back to the first screen in the stack."
+    }, {
+        "question": "Difference between navigation.push() and navigation.navigate()",
+        "answer": "The Push action adds a route on **top of the stack** and navigates forward to it. This differs from navigate in that navigate will pop back to earlier in the stack if a component is already mounted there. Push will always add on top, so a component can be mounted multiple times."
     }]
 }
