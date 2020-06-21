@@ -6,7 +6,7 @@ import ReactImage from '../../assets/images/computer-table.jpg';
 import JavascriptImage from '../../assets/images/computer.jpg';
 import javascriptJSON from '../../staticData/javascript.json';
 import reactNativeJSON from '../../staticData/react-native.json';
-import reactJSON from '../../staticData/react.json';
+import reactJSON from '../../staticData/react-js.json';
 import reduxJSON from '../../staticData/redux.json';
 
 
