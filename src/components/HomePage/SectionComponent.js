@@ -8,7 +8,7 @@ export default function SectionComponent(props) {
             <h2>
                 {`${props.text.toUpperCase()}`}
             </h2>
-            <Link className="button-container" to={{ pathname: `/topic/:${props.id}`, id: `${props.id}`, json: `${props.json}` }} id={props.id}>
+            <Link className="button-container" to={{ pathname: `/JavaScriptPrep/topic/:${props.id}`, id: `${props.id}`, json: `${props.json}` }} id={props.id}>
                 <div className="button">
                     Learn {props.text}
                 </div>
