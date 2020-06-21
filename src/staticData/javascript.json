@@ -1,6 +1,12 @@
 {
     "topic": "JavaScript",
-    "importantLinks": ["https://medium.com/front-end-weekly/javascript-event-loop-explained-4cd26af121d4", "https://www.telerik.com/blogs/debouncing-and-throttling-in-javascript#:~:text=Throttling%20is%20a%20technique%20in,Hello%2C%20world%20on%20the%20console."],
+    "importantLinks": [{
+        "link": "https://medium.com/front-end-weekly/javascript-event-loop-explained-4cd26af121d4", 
+        "text": "Event Loop"
+    },{
+        "link": "https://www.telerik.com/blogs/debouncing-and-throttling-in-javascript#:~:text=Throttling%20is%20a%20technique%20in,Hello%2C%20world%20on%20the%20console.",
+        "text":"Difference between Deboucing and Throttling"
+    }],
     "logo": "https://javascript-prep.s3.ap-south-1.amazonaws.com/JavaScript-logo.png",
     "questionsAndAnswers":[{
         "question": "<h3>Hoisting</h3>",
