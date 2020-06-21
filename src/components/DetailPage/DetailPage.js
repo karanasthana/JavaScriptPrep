@@ -4,7 +4,7 @@ import QuestionAnswerComponent from './QuestionAnswerComponent';
 import HeaderComponent from './HeaderComponent';
 import '../../css/detail.css';
 
-export default function DetailPage(props) {
+export default function Topic(props) {
     let json = require(`../../staticData/${props.match.params.id.substr(1)}.json`)
     return (
         <div className="detail-container">
