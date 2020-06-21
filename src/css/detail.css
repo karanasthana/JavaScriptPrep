@@ -1,6 +1,6 @@
 .detail-container{
     min-height: 100vh;
-    background: lightblue;
+    background: black;
 }
 
 .detail-container .qa-container{
@@ -27,8 +27,12 @@
 .detail-container .accordion .card .card-header{
     font-size: 1.5em;
     font-weight: 600;
-    color: #393e46; 
-    background: lightyellow;
+    color: wheat; 
+    background: black;
+}
+.detail-container .accordion .card .card-body{
+    color: white; 
+    background: black;
 }
 .detail-container .links-container{
     margin-bottom: 0;
