@@ -1,11 +1,11 @@
 {
     "topic": "ReactJS",
     "importantLinks": [{
-        "link": "", 
-        "text": ""
+        "link": "https://itnext.io/add-state-and-lifecycle-methods-to-function-components-with-react-hooks-8e2bdc44d43d", 
+        "text": "Hooks for statefull functional components"
     },{
-        "link": "",
-        "text":""
+        "link": "https://medium.com/@Zwenza/functional-vs-class-components-in-react-231e3fbd7108",
+        "text":"When to choose what components"
     }],
     "logo": "https://javascript-prep.s3.ap-south-1.amazonaws.com/react-logo.png",
     "questionsAndAnswers":[{
@@ -26,5 +26,11 @@
     }, {
         "question": "Why React?",
         "answer": ""
+    }, {
+        "question": "How to make use of component lifecycle in functional methods",
+        "answer": "Use React Hooks to use states in functional components. Read more about it in the important links section."
+    }, {
+        "question": "Differences between functional and class components",
+        "answer": "Refer to the important links."
     }]
 }

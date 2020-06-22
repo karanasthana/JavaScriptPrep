@@ -1,11 +1,8 @@
 {
     "topic": "Redux",
     "importantLinks": [{
-        "link": "", 
-        "text": ""
-    },{
-        "link": "",
-        "text":""
+        "link": "https://frontarm.com/james-k-nelson/when-context-replaces-redux/#:~:text=React's%20context%20API%20does%20basically,whole%20toolkit%20for%20managing%20state%3A&text=It%20provides%20a%20middleware%20API,to%20tools%20like%20redux%2Dsagas", 
+        "text": "Context API and when to choose it over Redux"
     }],
     "logo": "https://javascript-prep.s3.ap-south-1.amazonaws.com/redux-logo.png",
     "questionsAndAnswers":[{
