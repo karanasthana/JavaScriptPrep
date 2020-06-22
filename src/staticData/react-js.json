@@ -6,6 +6,9 @@
     },{
         "link": "https://medium.com/@Zwenza/functional-vs-class-components-in-react-231e3fbd7108",
         "text":"When to choose what components"
+    },{
+        "link": "https://medium.com/@suhas010/what-the-heck-is-repaint-and-reflow-in-the-browser-b2d0fb980c08],",
+        "text":"Repainting and Reflow"
     }],
     "logo": "https://javascript-prep.s3.ap-south-1.amazonaws.com/react-logo.png",
     "questionsAndAnswers":[{
@@ -16,21 +19,21 @@
         "answer": "<ul> <li><strong>Initialization</strong> where constructor function is called to set things up, generally states and props.</li> <li><strong>Mounting</strong> Component renders for the first time and 2 methods are available- <em>ComponentDidMount</em> and <em>ComponentWillMount</em>. How it happens is, willMount is called just before the render method and is called only once in the entire lifecycle. After render method didMount is called.</li> <li><strong>Updating</strong> where component&#39;s state and props changes and it re renders on the page. 4 methods are available at this time:</li> </ul> <p><em>componentWillReceiveProps</em> receives props, </p> <p> <em>ShouldComponentUpdate</em> is called just before the component is re rendered and tells whether the component should be updated or not. By default, it returns true.</p> <p><em>componentWillUpdate</em> it is called just before the new component gets rendered.</p> <p><em>componentDidUpdate</em> This method is called just after the re-rendering of the component. You will have access to the previous props and state with prevProp and prevState as well as the current ones, and you can use this method to update any third party libraries if they happen to need an update due to the re-render.</p> <ul> <li><strong>Unmounting</strong> : At the unmounting stage, the component gets deleted and removed from the page. The only lifecycle method at this stage is componentWillUnmount, which is called just before the component gets deleted. It is used to clear anything that was set up in componentDidMount</li> </ul> "
     }, {
         "question": "How does virtual DOM know what has changed in the list of elements",
-        "answer": ""
-    }, {
-        "question": "React.createElement()",
-        "answer": "<p><code>React.createElement( type, [props], [...children] )</code> Create and return a new React element of the given type. The type argument can be either a tag name string (such as &#39;div&#39; or &#39;span&#39;), a React component type (a class or a function), or a React fragment type.</p>"
+        "answer": "When state changes occur, the virtual DOM is updated and the previous and current version of virtual DOM is compared. This is called <strong>diffing</strong>. The virtual DOM then sends a batch update to the real DOM to update the UI."
     }, {
         "question": "React.createElement()",
         "answer": "<p><code>React.createElement( type, [props], [...children] )</code> Create and return a new React element of the given type. The type argument can be either a tag name string (such as &#39;div&#39; or &#39;span&#39;), a React component type (a class or a function), or a React fragment type.</p>"
     }, {
         "question": "Why React?",
-        "answer": ""
+        "answer": "<ul><li>Virtual DOM.</li><li>It’s Easier to Learn for developers.</li><li>React enables developers to reuse components.</li><li>It provides a unique Abstraction Layer: It provides a good abstraction layer, which means an end-user can’t access the complex internals.</li></ul>"
     }, {
         "question": "How to make use of component lifecycle in functional methods",
         "answer": "Use React Hooks to use states in functional components. Read more about it in the important links section."
     }, {
         "question": "Differences between functional and class components",
+        "answer": "Refer to the important links."
+    }, {
+        "question": "Differences between Repainting and Reflow",
         "answer": "Refer to the important links."
     }]
 }
