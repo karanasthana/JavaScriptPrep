@@ -9,7 +9,7 @@ export default function ImportantLinksComponent(props) {
     console.log(linksList)
     let LinksUI = _.map(linksList, function(link, index) {
         return (
-            <li key={index}><a target="_blank" href={link.link}>{link.text}</a></li>
+            <li key={index}><a target="_blank" rel='noopener noreferrer' href={link.link}>{link.text}</a></li>
         );
     })
 
