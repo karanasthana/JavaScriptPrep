@@ -7,13 +7,13 @@
     "logo": "https://javascript-prep.s3.ap-south-1.amazonaws.com/redux-logo.png",
     "questionsAndAnswers":[{
         "question": "Reducers",
-        "answer": "Reducers are just pure functions that take the previous state and an action, and return the next state."
+        "answer": "Reducers are just pure functions that take the previous state and an action, and return the next state. <br /> The state of a store is updated by means of reducer functions. A stable collection of a reducers form a store and each of the stores maintains a separate state associated for itself."
     }, {
         "question": "Actions",
         "answer": "Actions are payloads of information that send data from your application to your store. They are the only source of information for the store. You send them to the store using store.dispatch()"
     }, {
         "question": "Connect()",
-        "answer": "The connect() function connects a React component to a Redux store. Parameters: mapStateToProps, MapDispatchToProps"
+        "answer": "The connect() function connects a React component to a Redux store. Parameters: mapStateToProps, MapDispatchToProps. <strong>mapStateToProps</strong> maps the state variables from your store to the props that you specify."
     }, {
         "question": "Redux Alternative",
         "answer": "Read about Context API"
@@ -22,7 +22,7 @@
         "answer": ""
     }, {
         "question": "Why do we need Redux to store state, why not react's state and props?",
-        "answer": ""
+        "answer": "<ul><li>Application's state is meant to be kept as small as possible and therefore, if our application is quite big and we have varous states, we should store it in a global store: redux.</li> <li>Things like authentication while login requires auth token to be saved in a global state, in that case we should use redux store. </li><li>Using redux separates business logic from design which in turn improves code readabily and maintainability</li></ul>"
     }, {
         "question": "Difference between context api and redux",
         "answer": ""
@@ -30,7 +30,13 @@
         "question": "Examples of when to use redux and when not",
         "answer": ""
     },{
-        "question": "Redux lifecycle",
-        "answer": ""
+        "question": "Redux flow",
+        "answer": "Call-back from UI component dispatches an action with a payload, these dispatched actions are intercepted and received by the reducers. This interception will generate a new application state. From here the actions will be propagated down through a hierarchy of components from Redux store."
+    },{
+        "question": "Store",
+        "answer": "The store holds the application state and supplies the helper methods for accessing the state, register listeners and dispatch actions. There is only one Store while using Redux. The store is configured via the <strong>createStorefunction</strong>. The single store represents the entire state. Rducers return a state via action <br /> <code>export function configureStore(initialState) { return createStore(rootReducer, initialState); }</code> <br /> The root reducer is a collection of all reducers in the application."
+    }, {
+        "question": "Redux Thunk",
+        "answer": "Redux Thunk is a middleware that allows you to write action creators that return a function instead of an action. The thunk can be used to delay the dispatch of an action, or to dispatch only if a certain condition is met. The inner function receives the store methods dispatch and getState() as parameters."
     }]
 }

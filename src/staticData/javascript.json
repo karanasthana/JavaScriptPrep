@@ -92,5 +92,8 @@
     },{
         "question": "What happens in our browsers when we write html css and js",
         "answer": ""
+    },{
+        "question": "array of users data and that data is paginated, only 10 are shown at a time, now second batch is loading and user clicks somewhere else and that takes time to give response. What will load first? (2nd batch of users or response )",
+        "answer": ""
     }]
 }
