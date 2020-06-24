@@ -35,5 +35,23 @@
     }, {
         "question": "Differences between Repainting and Reflow",
         "answer": "Refer to the important links."
+    }, {
+        "question": "React is unidirectional or bidirectional. Explain unidirectional flow.",
+        "answer": ""
+    }, {
+        "question": "Why is setState() async",
+        "answer": ""
+    }, {
+        "question": "Is there any memory leak in react?",
+        "answer": ""
+    }, {
+        "question": "examples of HOC",
+        "answer": ""
+    }, {
+        "question": "how can you achieve asynchronous implementation in react",
+        "answer": ""
+    }, {
+        "question": "how do you create react builds",
+        "answer": ""
     }]
 }
