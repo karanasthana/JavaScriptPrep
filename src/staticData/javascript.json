@@ -77,5 +77,20 @@
     },{
         "question": "Object iteration",
         "answer": "Object.keys(), Object.values(), Object.entries() "
+    },{
+        "question": "Who listens to promises? how does it know which state is the promise in?",
+        "answer": ""
+    },{
+        "question": "What is AJAX and how does it work?",
+        "answer": ""
+    },{
+        "question": "How does JS handle ajax requests?",
+        "answer": ""
+    },{
+        "question": "Difference between process and thread",
+        "answer": ""
+    },{
+        "question": "What happens in our browsers when we write html css and js",
+        "answer": ""
     }]
 }
