@@ -39,4 +39,9 @@
     padding: 20px;
     background: #f05a28;
 }
-/* test comment */
+
+@media screen and (max-width: 768px) {
+    .section-container h2 {
+        font-size: 4rem;
+    }
+}
