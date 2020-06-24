@@ -12,12 +12,13 @@
 .section-container h2 {
     margin: 0;
     color: white;
-    font-size: 4rem;
+    font-size: 8rem;
     display: flex;
     justify-content: center;
     top: 3rem;
     position: relative;
 }
+
 
 .section-container .button-container {
     display: flex;
@@ -39,4 +40,9 @@
     padding: 20px;
     background: #f05a28;
 }
-/* test comment */
+
+@media screen and (max-width: 768px) {
+    .section-container h2 {
+        font-size: 4rem;
+    }
+}
