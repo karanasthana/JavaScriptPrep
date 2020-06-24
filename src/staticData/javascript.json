@@ -5,7 +5,10 @@
         "text": "Event Loop"
     },{
         "link": "https://www.telerik.com/blogs/debouncing-and-throttling-in-javascript#:~:text=Throttling%20is%20a%20technique%20in,Hello%2C%20world%20on%20the%20console.",
-        "text":"Difference between Deboucing and Throttling"
+        "text": "Difference between Deboucing and Throttling"
+    }, {
+        "link": "https://www.javatpoint.com/how-ajax-works",
+        "text": "How does Ajax work with Javascript"
     }],
     "logo": "https://javascript-prep.s3.ap-south-1.amazonaws.com/JavaScript-logo.png",
     "questionsAndAnswers":[{
@@ -85,13 +88,13 @@
         "answer": "AJAX (Asynchronous JavaScript and XML) allows applications to transport data to/from a server asynchronously without refreshing the page. This means that it is likely to update parts of a web page, without reloading the entire page. "
     },{
         "question": "How does JS handle ajax requests?",
-        "answer": ""
+        "answer": "User sends a request from the UI and a javascript call goes to XMLHttpRequest object. HTTP Request is sent to the server by XMLHttpRequest object. Server interacts with the database using JSP, PHP, Servlet, ASP.net etc. Data is retrieved. Server sends XML data or JSON data to the XMLHttpRequest callback function. HTML and CSS data is displayed on the browser."
     },{
         "question": "Difference between process and thread in browser",
-        "answer": "chrome uses multiprocessing and firefox uses multi threading. so each tab in chrome is a <strong>process</strong>, whereas in firefox each tab is a <strong>thread</strong>. since multithreading is faster, firefox is faster(due to shared memory, context switching is faster in threads). however, it is important to note that, chrome is less likely to crash since if one tab(process) crashes, it won't crash the entire browser. opposite is true in case of firefox."
+        "answer": "chrome uses multiprocessing and firefox uses multi threading. so each tab in chrome is a <strong>process</strong>, whereas in firefox each tab is a <strong>thread</strong>. since multithreading is faster, firefox is faster(due to shared memory, context switching is faster in threads). However, it is important to note that, chrome is less likely to crash since if one tab(process) crashes, it won't crash the entire browser. opposite is true in case of firefox."
     },{
-        "question": "What happens in our browsers when we write html css and js",
-        "answer": ""
+        "question": "What happens internally in the browser when we load html css and js",
+        "answer": "A DOM is created using the HTML files. Starting from the<code> < body > </code>tag. The javascript files and the css files are also loaded as extras in the DOM. These javascript file contents eventually contain some functions, which are then called as per the user's code logic. The Css classes get applied to the DOM elements while rendering the DOM"
     },{
         "question": "array of users data and that data is paginated, only 10 are shown at a time, now second batch is loading and user clicks somewhere else and that takes time to give response. What will load first? (2nd batch of users or response )",
         "answer": ""
