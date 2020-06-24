@@ -20,5 +20,17 @@
     }, {
         "question": "Redux Design Pattern?",
         "answer": ""
+    }, {
+        "question": "Why do we need Redux to store state, why not react's state and props?",
+        "answer": ""
+    }, {
+        "question": "Difference between context api and redux",
+        "answer": ""
+    }, {
+        "question": "Examples of when to use redux and when not",
+        "answer": ""
+    },{
+        "question": "Redux lifecycle",
+        "answer": ""
     }]
 }
