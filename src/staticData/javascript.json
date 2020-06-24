@@ -82,13 +82,13 @@
         "answer": ""
     },{
         "question": "What is AJAX and how does it work?",
-        "answer": ""
+        "answer": "AJAX (Asynchronous JavaScript and XML) allows applications to transport data to/from a server asynchronously without refreshing the page. This means that it is likely to update parts of a web page, without reloading the entire page. "
     },{
         "question": "How does JS handle ajax requests?",
         "answer": ""
     },{
-        "question": "Difference between process and thread",
-        "answer": ""
+        "question": "Difference between process and thread in browser",
+        "answer": "chrome uses multiprocessing and firefox uses multi threading. so each tab in chrome is a <strong>process</strong>, whereas in firefox each tab is a <strong>thread</strong>. since multithreading is faster, firefox is faster(due to shared memory, context switching is faster in threads). however, it is important to note that, chrome is less likely to crash since if one tab(process) crashes, it won't crash the entire browser. opposite is true in case of firefox."
     },{
         "question": "What happens in our browsers when we write html css and js",
         "answer": ""
