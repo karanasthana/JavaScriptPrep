@@ -7,11 +7,14 @@
         "link": "https://medium.com/@Zwenza/functional-vs-class-components-in-react-231e3fbd7108",
         "text": "When to choose what components"
     },{
-        "link": "https://medium.com/@suhas010/what-the-heck-is-repaint-and-reflow-in-the-browser-b2d0fb980c08],",
+        "link": "https://medium.com/@suhas010/what-the-heck-is-repaint-and-reflow-in-the-browser-b2d0fb980c08",
         "text": "Repainting and Reflow"
     }, {
         "link": "https://www.codingame.com/playgrounds/8595/reactjs-higher-order-components-tutorial#:~:text=A%20higher%2Dorder%20component%20(HOC,the%20advanced%20technique%20in%20React.&text=They%20are%20the%20pattern%20that,Redux's%20connect%20and%20Relay's%20createContainer.",
         "text": "Higher Order Component"
+    },{
+        "link": "https://medium.com/better-programming/when-to-use-react-purecomponent-723f85738be1#:~:text=PureComponent%20Is%20Primarily%20Used%20for,performance%20boost%20in%20some%20cases.",
+        "text": "When to use Pure Components"
     }],
     "logo": "https://javascript-prep.s3.ap-south-1.amazonaws.com/react-logo.png",
     "questionsAndAnswers":[{
@@ -40,7 +43,7 @@
         "answer": "Refer to the important links."
     }, {
         "question": "React is unidirectional or bidirectional. Explain unidirectional flow.",
-        "answer": "React is unidirectional. <br/> Unidirection flow is one where you can pass on data in any one direction (either always parent to child or always parent to child). <br/> React JS is an unidirectional flow wherein data can be passed only from parent to child."
+        "answer": "React is unidirectional. <br/> Unidirection flow is one where you can pass on data in any one direction (either always parent to child or always child to parent). <br/> React JS is an unidirectional flow wherein data can be passed only from parent to child."
     }, {
         "question": "Why is setState() async",
         "answer": "setState() is async because React intelligently combines several setState functions into one and thus, change the virtual DOM only once for several setState calls performed in a short span of time."
@@ -49,10 +52,10 @@
         "answer": "Can't perform a React state update on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in the componentWillUnmount method."
     }, {
         "question": "examples of HOC",
-        "answer": ""
+        "answer": "Refer to important links"
     }, {
         "question": "how do you create react builds",
-        "answer": "We use <strong>npm</strong> to create react builds. Using the commands <code>npm run build</code>. Ususally the build script is run using this command. COmmonly the build script is used to create minified deployable versions of all the javascript code into one, all the css code into one and all HTML into one."
+        "answer": "We use <strong>npm</strong> to create react builds. Using the commands <code>npm run build</code>. Ususally the build script is run using this command. Commonly the build script is used to create minified deployable versions of all the javascript code into one, all the css code into one and all HTML into one."
     }, {
         "question": "What are Pure Components",
         "answer": "React.PureComponent is similar to React.Component. The difference between them is that React.Component doesn’t implement shouldComponentUpdate(), but React.PureComponent implements it with a shallow prop and state comparison. If your React component’s render() function renders the same result given the same props and state, you can use React.PureComponent for a performance boost in some cases."
