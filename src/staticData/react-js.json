@@ -12,6 +12,9 @@
     }, {
         "link": "https://www.codingame.com/playgrounds/8595/reactjs-higher-order-components-tutorial#:~:text=A%20higher%2Dorder%20component%20(HOC,the%20advanced%20technique%20in%20React.&text=They%20are%20the%20pattern%20that,Redux's%20connect%20and%20Relay's%20createContainer.",
         "text": "Higher Order Component"
+    },{
+        "link": "https://medium.com/better-programming/when-to-use-react-purecomponent-723f85738be1#:~:text=PureComponent%20Is%20Primarily%20Used%20for,performance%20boost%20in%20some%20cases.",
+        "text": "When to use Pure Components"
     }],
     "logo": "https://javascript-prep.s3.ap-south-1.amazonaws.com/react-logo.png",
     "questionsAndAnswers":[{
