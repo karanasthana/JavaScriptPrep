@@ -9,6 +9,9 @@
     }, {
         "link": "https://www.javatpoint.com/how-ajax-works",
         "text": "How does Ajax work with Javascript"
+    },{
+        "link": "https://javascript.info/property-accessors",
+        "text": "Getters and Setters"
     }],
     "logo": "https://javascript-prep.s3.ap-south-1.amazonaws.com/JavaScript-logo.png",
     "questionsAndAnswers":[{
@@ -94,9 +97,21 @@
         "answer": "chrome uses multiprocessing and firefox uses multi threading. so each tab in chrome is a <strong>process</strong>, whereas in firefox each tab is a <strong>thread</strong>. since multithreading is faster, firefox is faster(due to shared memory, context switching is faster in threads). However, it is important to note that, chrome is less likely to crash since if one tab(process) crashes, it won't crash the entire browser. opposite is true in case of firefox."
     },{
         "question": "What happens internally in the browser when we load html css and js",
-        "answer": "A DOM is created using the HTML files. Starting from the<code> < body > </code>tag. The javascript files and the css files are also loaded as extras in the DOM. These javascript file contents eventually contain some functions, which are then called as per the user's code logic. The Css classes get applied to the DOM elements while rendering the DOM"
+        "answer": "A DOM is created using the HTML files. Starting from the<code> <body> </code>tag. The javascript files and the css files are also loaded as extras in the DOM. These javascript file contents eventually contain some functions, which are then called as per the user's code logic. The Css classes get applied to the DOM elements while rendering the DOM"
     },{
         "question": "array of users data and that data is paginated, only 10 are shown at a time, now second batch is loading and user clicks somewhere else and that takes time to give response. What will load first? (2nd batch of users or response )",
         "answer": ""
+    },{
+        "question": "What is Destructuring?",
+        "answer": "The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables."
+    },{
+        "question": "What is Prototypal Inheritance?",
+        "answer": "In JavaScript, objects have a special hidden property [[Prototype]] (as named in the specification), that is either null or references another object. That object is called <em>a prototype</em>. When we want to read a property from object, and it’s missing, JavaScript automatically takes it from the prototype. This is called “prototypal inheritance”."
+    },{
+        "question": "What are getters and setters",
+        "answer": "Refer to important links"
+    },{
+        "question": "What are Web Workers",
+        "answer": "A web worker is a JavaScript that runs in the background, independently of other scripts, without affecting the performance of the page. You can continue to do whatever you want: clicking, selecting things, etc., while the web worker runs in the background. <br /> A worker is an object created using a constructor (e.g. Worker()) that runs a named JavaScript file — this file contains the code that will run in the worker thread; workers run in another global context that is different from the current window. Thus, using the window shortcut to get the current global scope (instead of self) within a Worker will return an error."
     }]
 }
