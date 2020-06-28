@@ -7,7 +7,7 @@ export default function NavBar(props) {
         <nav className="navbar hidden-in-small">
             <div className="menu-bar navbar-container">
                 <div className="navbar-header">
-                    <Link className="navbar-brand" href="/JavaScriptPrep">
+                <Link className="navbar-brand" to={{ pathname: '/JavaScriptPrep' }}>
                         <img src="https://javascript-prep.s3.ap-south-1.amazonaws.com/header.jpg" alt="Code" style={{ maxHeight: '50px' }} />
                     </Link>
                 </div>
