@@ -29,6 +29,8 @@
     font-weight: 600;
     color: lightskyblue; 
     background: black;
+    /* cursor:  */
+    cursor: url('https://javascript-prep.s3.ap-south-1.amazonaws.com/book_img.png'), pointer;
 }
 .detail-container .accordion .card .card-body{
     color: white; 
@@ -42,3 +44,35 @@
     color: lightyellow;
 }
 
+@media screen and (max-width: 768px) {
+    .hidden-in-small {
+        display: none !important;
+    }
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+#myNavbar.list-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#myNavbar .unordered-list {
+    display: flex;
+    flex-direction: row;
+}
+
+#myNavbar .unordered-list li {
+    padding: 10px;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    text-align: center;
+}
+
+#myNavbar .unordered-list li a {
+    color: lightskyblue;
+}
