@@ -49,13 +49,30 @@
         display: none !important;
     }
 }
-.unordered-list li {
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+#myNavbar.list-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#myNavbar .unordered-list {
+    display: flex;
+    flex-direction: row;
+}
+
+#myNavbar .unordered-list li {
     padding: 10px;
     font-size: 1.5rem;
     margin-right: 10px;
     text-align: center;
 }
 
-.unordered-list li a {
+#myNavbar .unordered-list li a {
     color: lightskyblue;
 }
