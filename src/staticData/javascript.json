@@ -12,6 +12,9 @@
     },{
         "link": "https://javascript.info/property-accessors",
         "text": "Getters and Setters"
+    },{
+        "link": "https://zerotomastery.io/courses/advanced-javascript/cheatsheet/",
+        "text": "Important JS concepts"
     }],
     "logo": "https://javascript-prep.s3.ap-south-1.amazonaws.com/JavaScript-logo.png",
     "questionsAndAnswers":[{
