@@ -6,6 +6,9 @@
     }, {
         "link": "https://www.educba.com/redux-alternatives/",
         "text": "What is Redux and it's alternatives"
+    }, {
+        "link": "https://www.digitalocean.com/community/tutorials/redux-redux-intro#:~:text=Redux%20is%20a%20predictable%20state,just%20plain%20old%20vanilla%20JavaScript.",
+        "text": "Redux's Core Concepts and design pattern"
     }],
     "logo": "https://javascript-prep.s3.ap-south-1.amazonaws.com/redux-logo.png",
     "questionsAndAnswers":[{
