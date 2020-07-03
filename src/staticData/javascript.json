@@ -116,5 +116,8 @@
     },{
         "question": "What are Web Workers",
         "answer": "A web worker is a JavaScript that runs in the background, independently of other scripts, without affecting the performance of the page. You can continue to do whatever you want: clicking, selecting things, etc., while the web worker runs in the background. <br /> A worker is an object created using a constructor (e.g. Worker()) that runs a named JavaScript file — this file contains the code that will run in the worker thread; workers run in another global context that is different from the current window. Thus, using the window shortcut to get the current global scope (instead of self) within a Worker will return an error."
+    },{
+        "question": "Object.create()",
+        "answer": "Object.create() creates a new empty object for us and is used to achieve prototypal inhertitance. Suppose we have an object with certain methods or properties which we want to re use in several other functions. We can provide that object's name into the argument of object.create(). <br /> Example: <code> let usable = {talk(){return 'Bla Bla'}}</code><br /> <code>let useUsable = Object.create(usable)</code> <br /> Now, it creates a new empty object useUsable which has the talk() method."
     }]
 }
