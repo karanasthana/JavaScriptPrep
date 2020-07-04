@@ -119,5 +119,14 @@
     },{
         "question": "Object.create()",
         "answer": "Object.create() creates a new empty object for us and is used to achieve prototypal inhertitance. Suppose we have an object with certain methods or properties which we want to re use in several other functions. We can provide that object's name into the argument of object.create(). <br /> Example: <code> let usable = {talk(){return 'Bla Bla'}}</code><br /> <code>let useUsable = Object.create(usable)</code> <br /> Now, it creates a new empty object useUsable which has the talk() method."
+    },{
+        "question": "Difference between window object and this",
+        "answer": ""
+    },{
+        "question": "Difference between local storage, session storage and cookie storage",
+        "answer": ""
+    },{
+        "question": "Give different methods to load javascript asynchronously in html5",
+        "answer": "html5 has an attribute async which when set will load the script files asynchronously"
     }]
 }
