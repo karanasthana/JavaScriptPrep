@@ -131,5 +131,14 @@
     },{
         "question": "Does JS has classes?",
         "answer": "Well, yes they are just syntactic sugar but <code>class</code> keyword is still just prototypal inheritance. It can also be said as <code>Pseudo classical inheritance</code> because it's not real classical inheritance. Methods to be shared are written outside the constructor function because everytime we instantiate a class, a constructor function is run and it may have different values while instantiating. But every instantiated object needs that method which is why it is put outside to make it shareable."
+    },{
+        "question": "Difference between async await and promises",
+        "answer": ""
+    },{
+        "question": "Difference between foreach, filter and map",
+        "answer": ""
+    },{
+        "question": "Benefits of template literals",
+        "answer": ""
     }]
 }
