@@ -23,5 +23,14 @@
     }, {
         "question": "Difference between navigation.push() and navigation.navigate()",
         "answer": "The Push action adds a route on **top of the stack** and navigates forward to it. This differs from navigate in that navigate will pop back to earlier in the stack if a component is already mounted there. Push will always add on top, so a component can be mounted multiple times."
+    },{
+        "question": "What are native modules",
+        "answer": ""
+    },{
+        "question": "What is interaction manager",
+        "answer": ""
+    },{
+        "question": "How to do pagination in flat list",
+        "answer": ""
     }]
 }
