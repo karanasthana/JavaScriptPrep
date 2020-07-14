@@ -140,5 +140,11 @@
     },{
         "question": "Benefits of template literals",
         "answer": ""
+    },{
+        "question": "Page can load without css?",
+        "answer": ""
+    },{
+        "question": "Naming convention for css classes",
+        "answer": ""
     }]
 }

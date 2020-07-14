@@ -62,5 +62,29 @@
     },{
         "question": "Alternative of React.PureComponent",
         "answer": ""
+    },{
+        "question": "If parent component contains a child component, Will child component re renders if render function of parent is called?",
+        "answer": "Yes, and to avoid this we should use pure components."
+    },{
+        "question": "if there are multiple css files in components and one in global how are they loaded?",
+        "answer": ""
+    },{
+        "question": "If you have a lot of components and page is taking a lot of time to load how will you check where is the code failing?",
+        "answer": ""
+    },{
+        "question": "How to do server side rendering?",
+        "answer": ""
+    },{
+        "question": "React lazy loading and Suspense",
+        "answer": "React.lazy() and <Suspense />"
+    },{
+        "question": "how to cancel fetch operation if previous fetch didn't return a response?",
+        "answer": ""
+    },{
+        "question": "Apply something in a DOM node like document.getElementById in react",
+        "answer": "use React.findDOMNode()"
+    },{
+        "question": "Reason behind not using id as an index in map",
+        "answer": ""
     }]
 }
