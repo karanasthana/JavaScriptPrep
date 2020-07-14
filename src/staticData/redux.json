@@ -25,7 +25,7 @@
         "answer": "Read about Context API. Or 3rd party libraries like Realm"
     }, {
         "question": "Why do we need Redux to store state, why not react's state and props?",
-        "answer": "<p>React is unidirectional. Ao to have access to a global level state, we use redux</p> <ul><li>Application's state is meant to be kept as small as possible and therefore, if our application is quite big and we have varous states, we should store it in a global store: redux.</li> <li>Things like authentication while login requires auth token to be saved in a global state, in that case we should use redux store. </li><li>Using redux separates business logic from design which in turn improves code readabily and maintainability</li></ul>"
+        "answer": "<p>React is unidirectional. So to have access to a global level state, we use redux</p> <ul><li>Application's state is meant to be kept as small as possible and therefore, if our application is quite big and we have varous states, we should store it in a global store: redux.</li> <li>Things like authentication while login requires auth token to be saved in a global state, in that case we should use redux store. </li><li>Using redux separates business logic from design which in turn improves code readabily and maintainability</li></ul>"
     }, {
         "question": "Difference between context api and redux",
         "answer": ""
