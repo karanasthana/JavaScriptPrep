@@ -28,7 +28,7 @@
         "answer": ""
     },{
         "question": "What is interaction manager",
-        "answer": ""
+        "answer": "The interaction manager is a native module present in React Native with the workability of deferring the execution of a function until an ‘interaction’ has finished. This module is crucial because React Native has only one thread for making UI updates which can be overloaded and result in drop frames. Developers use interaction manager to ensure that the function is only executed after the animations occurred so that any frame drops may not result."
     },{
         "question": "How to do pagination in flat list",
         "answer": ""
