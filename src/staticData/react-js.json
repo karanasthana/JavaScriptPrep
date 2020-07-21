@@ -76,7 +76,7 @@
         "answer": ""
     },{
         "question": "React lazy loading and Suspense",
-        "answer": "React.lazy() and <Suspense />"
+        "answer": "React.lazy() and < Suspense />"
     },{
         "question": "how to cancel fetch operation if previous fetch didn't return a response?",
         "answer": ""
@@ -85,6 +85,9 @@
         "answer": "use React.findDOMNode()"
     },{
         "question": "Reason behind not using id as an index in map",
+        "answer": ""
+    },{
+        "question": "Difference between state and props",
         "answer": ""
     }]
 }
