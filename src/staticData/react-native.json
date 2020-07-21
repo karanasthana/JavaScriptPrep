@@ -32,5 +32,14 @@
     },{
         "question": "How to do pagination in flat list",
         "answer": ""
+    },{
+        "question": "What is < SafeAreaView >",
+        "answer": ""
+    },{
+        "question": "What are default props",
+        "answer": ""
+    },{
+        "question": "What is async storage",
+        "answer": ""
     }]
 }
