@@ -46,7 +46,7 @@
         "answer": "React is unidirectional. <br/> Unidirection flow is one where you can pass on data in any one direction (either always parent to child or always child to parent). <br/> React JS is an unidirectional flow wherein data can be passed only from parent to child."
     }, {
         "question": "Why is setState() async",
-        "answer": "setState() is async because React intelligently combines several setState functions into one and thus, change the virtual DOM only once for several setState calls performed in a short span of time."
+        "answer": "setState() is async because React intelligently combines several setState functions into one and thus, change the virtual DOM only once for several setState calls performed in a short span of time. Also, there is no guarantee that the state has been updated if we try to access the value immediately"
     }, {
         "question": "Is there any memory leak in react?",
         "answer": "Can't perform a React state update on an unmounted component. This is a no-op, but it indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous tasks in the componentWillUnmount method."
@@ -89,5 +89,11 @@
     },{
         "question": "Difference between state and props",
         "answer": ""
+    },{
+        "question": "Why should we not mutate state directly? By assigning like <code>this.state.a = 10</code>",
+        "answer": "setState() is not immediate. It queues a state transition based on what it thinks is going on which may not include the direct changes to this.state. Since it's queued rather than applied immediately, it's entirely possible that something is modified in between such that your direct changes get overwritten. Basically, if you modify this.state directly, you create a situation where those modifications might get overwritten."
+    },{
+        "question": "Why this.setState should not be called inside render method?",
+        "answer": " setState() calls render, and calling a function mutating the state inside render generally leads to an infinite loop."
     }]
 }

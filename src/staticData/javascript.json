@@ -133,7 +133,7 @@
         "answer": "Well, yes they are just syntactic sugar but <code>class</code> keyword is still just prototypal inheritance. It can also be said as <code>Pseudo classical inheritance</code> because it's not real classical inheritance. Methods to be shared are written outside the constructor function because everytime we instantiate a class, a constructor function is run and it may have different values while instantiating. But every instantiated object needs that method which is why it is put outside to make it shareable."
     },{
         "question": "Difference between async await and promises",
-        "answer": ""
+        "answer": "<ol><li>Only the promise chain itself is asynchronous in Promises but the whole wrapper function in case of async await is asynchronous.</li> <li>To resolve multiple promises using promise chain, we use Promise.all() But with async await we can simply await both promises, store the results in variables, and use them later in the code block.</li></ol>"
     },{
         "question": "Difference between foreach, filter and map",
         "answer": ""
@@ -146,5 +146,8 @@
     },{
         "question": "Naming convention for css classes",
         "answer": ""
+    },{
+        "question": "Callback hell",
+        "answer": "Asynchronous JavaScript, or JavaScript that uses callbacks, is hard to get right intuitively. A lot of code ends up looking like, if this happens then this and then this and then this causing the pyramid of coode."
     }]
 }
