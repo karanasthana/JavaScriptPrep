@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Switch,
 } from "react-router-dom";
@@ -11,7 +11,7 @@ function App(){
   return(
     <Router>
       <Switch>
-        <Route path={"/JavaScriptPrep/topic/:id"} name="Topic" component={Topic}/>
+        <Route path={"/topic/:id"} name="Topic" component={Topic}/>
         <Route path="/">
           <HomePage />
         </Route>
