@@ -45,3 +45,9 @@
         font-size: 4rem;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .section-container h2 {
+        font-size: 3rem;
+    }
+}
