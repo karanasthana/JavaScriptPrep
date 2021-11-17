@@ -5,7 +5,6 @@ import HeaderComponent from './HeaderComponent';
 import '../../css/detail.css';
 import { Button } from 'react-bootstrap';
 import _ from 'lodash';
-// import NavBar from './NavBar';
 
 export default function Topic(props) {
     let json = require(`../../staticData/${props.match.params.id.substr(1)}.json`)
@@ -16,15 +15,13 @@ export default function Topic(props) {
         });
         
         e.target.innerHTML = e.target.innerHTML === 'Expand All' ? 'Collapse All' : 'Expand All';
-        debugger;
     };
 
     return (
         <div className="detail-container">
-            <Button onClick={expandAll} style={{ position: 'fixed', right: '20px', bottom: '20px' , zIndex: '200' }} id={'ExpColBtn'}>
+            <Button onClick={expandAll} className={'expand-collapse-all'} id={'ExpColBtn'}>
                 Expand All
             </Button>
-            {/* <NavBar /> */}
             <HeaderComponent logo={json.logo} topic={json.topic} />
             <QuestionAnswerComponent questionsAndAnswers={json.questionsAndAnswers} />
             <ImportantLinksComponent linksList={json.importantLinks} />
