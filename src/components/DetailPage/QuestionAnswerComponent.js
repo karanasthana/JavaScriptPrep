@@ -11,7 +11,7 @@ export default function QuestionAnswerComponent(props) {
                 <Col md={{ span: 10, offset: 1 }}>
                     <Accordion >
                         <Card>
-                            <Accordion.Toggle as={Card.Header} eventKey={index}>
+                            <Accordion.Toggle as={Card.Header} className="toggle-card" eventKey={index}>
                                 { ReactHtmlParser(element.question) }
                             </Accordion.Toggle>
                             <Accordion.Collapse eventKey={index}>
