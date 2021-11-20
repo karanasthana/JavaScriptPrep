@@ -76,3 +76,10 @@
 #myNavbar .unordered-list li a {
     color: lightskyblue;
 }
+
+.expand-collapse-all {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 200;
+}
