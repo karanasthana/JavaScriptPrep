@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/JavaScriptPrep/static/css/main.1cb04d04.chunk.css",
-    "main.js": "/JavaScriptPrep/static/js/main.3a9ae9f8.chunk.js",
-    "main.js.map": "/JavaScriptPrep/static/js/main.3a9ae9f8.chunk.js.map",
+    "main.css": "/JavaScriptPrep/static/css/main.e606d32a.chunk.css",
+    "main.js": "/JavaScriptPrep/static/js/main.417ad716.chunk.js",
+    "main.js.map": "/JavaScriptPrep/static/js/main.417ad716.chunk.js.map",
     "runtime-main.js": "/JavaScriptPrep/static/js/runtime-main.fc1b20c5.js",
     "runtime-main.js.map": "/JavaScriptPrep/static/js/runtime-main.fc1b20c5.js.map",
     "static/css/2.af3c1da9.chunk.css": "/JavaScriptPrep/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.1a8ddebb.chunk.js": "/JavaScriptPrep/static/js/2.1a8ddebb.chunk.js",
-    "static/js/2.1a8ddebb.chunk.js.map": "/JavaScriptPrep/static/js/2.1a8ddebb.chunk.js.map",
+    "static/js/2.cc2c08ea.chunk.js": "/JavaScriptPrep/static/js/2.cc2c08ea.chunk.js",
+    "static/js/2.cc2c08ea.chunk.js.map": "/JavaScriptPrep/static/js/2.cc2c08ea.chunk.js.map",
     "index.html": "/JavaScriptPrep/index.html",
-    "precache-manifest.315b0ee9b280ccd24fac87f02d465bea.js": "/JavaScriptPrep/precache-manifest.315b0ee9b280ccd24fac87f02d465bea.js",
+    "precache-manifest.20b0b3dac2ce73ae131de6d2c043ac4d.js": "/JavaScriptPrep/precache-manifest.20b0b3dac2ce73ae131de6d2c043ac4d.js",
     "service-worker.js": "/JavaScriptPrep/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/JavaScriptPrep/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.1cb04d04.chunk.css.map": "/JavaScriptPrep/static/css/main.1cb04d04.chunk.css.map",
-    "static/js/2.1a8ddebb.chunk.js.LICENSE.txt": "/JavaScriptPrep/static/js/2.1a8ddebb.chunk.js.LICENSE.txt",
+    "static/css/main.e606d32a.chunk.css.map": "/JavaScriptPrep/static/css/main.e606d32a.chunk.css.map",
+    "static/js/2.cc2c08ea.chunk.js.LICENSE.txt": "/JavaScriptPrep/static/js/2.cc2c08ea.chunk.js.LICENSE.txt",
     "static/media/coding.jpg": "/JavaScriptPrep/static/media/coding.ac092b15.jpg",
     "static/media/common.webp": "/JavaScriptPrep/static/media/common.122b5b53.webp",
     "static/media/computer-table.jpg": "/JavaScriptPrep/static/media/computer-table.4fdf6d5b.jpg",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.fc1b20c5.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.1a8ddebb.chunk.js",
-    "static/css/main.1cb04d04.chunk.css",
-    "static/js/main.3a9ae9f8.chunk.js"
+    "static/js/2.cc2c08ea.chunk.js",
+    "static/css/main.e606d32a.chunk.css",
+    "static/js/main.417ad716.chunk.js"
   ]
 }
