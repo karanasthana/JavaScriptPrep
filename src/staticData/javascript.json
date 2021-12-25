@@ -15,6 +15,12 @@
     },{
         "link": "https://zerotomastery.io/courses/advanced-javascript/cheatsheet/",
         "text": "Important JS concepts"
+    },{
+        "link": "https://css-tricks.com/understanding-event-emitters/",
+        "text": "Implementing Event Emitters in JavaScript"
+    },{
+        "link": "https://vanillajstoolkit.com/polyfills/arrayfind/",
+        "text": "Create a polyfill for Array.prototype.find()"
     }],
     "logo": "https://javascript-prep.s3.ap-south-1.amazonaws.com/JavaScript-logo.png",
     "questionsAndAnswers":[{
@@ -152,5 +158,11 @@
     },{
         "question": "Event bubbling, capturing",
         "answer": "These are 2 ways of event propogation in the DOM tree. If any event occurs in child, it propogates to its parent as well. It means, it moves up to the heirarchy. We can stop this proppgation by using stopPropogation()"
+    },{
+        "question": "What are Event Emitters and how to create your own event emitters in JavaScript?",
+        "answer": "An event emitter is a pattern that listens to a named event, fires a callback, then emits that event with a value. For its implementation, refer to the useful links"
+    },{
+        "question": "Make a polyfill of an array method",
+        "answer": "A polyfill is a piece of code (usually JavaScript on the Web) used to provide modern functionality on older browsers that do not natively support it. In this process, at first the method is attached to the array prototype and then the function is returned. For more details, refer to the useful links for creating a polyfill of Array.prototype.find()"
     }]
 }
